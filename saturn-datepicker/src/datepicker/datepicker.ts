@@ -154,9 +154,6 @@ export class SatDatepickerContent<D> extends _SatDatepickerContentMixinBase
 })
 export class SatDatepicker<D> implements OnDestroy, CanColor {
 
-  /** Default color to fall back to if no value is set. */
-  defaultColor: ThemePalette | undefined;
-
   /** Whenever datepicker is for selecting range of dates. */
   @Input()
   get rangeMode(): boolean {
